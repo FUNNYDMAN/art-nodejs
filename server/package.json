@@ -1,0 +1,33 @@
+{
+  "name": "tutorial-node-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --detectOpenHandles",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberttod/tutorial-node-database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roberttod/tutorial-node-database/issues"
+  },
+  "homepage": "https://github.com/roberttod/tutorial-node-database#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.5",
+    "express": "^4.15.2",
+    "knex": "^0.13.0",
+    "pg": "^7.9.0"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.2"
+  }
+}
